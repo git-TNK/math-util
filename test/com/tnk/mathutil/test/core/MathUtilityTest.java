@@ -50,9 +50,9 @@ public class MathUtilityTest {
     public void testGetFactorialGivenWrongArgumentThrownException(){
         MathUtil.getFactorial(-5);
     }
-     @Test
-    public void testGetFactorialGivenWrongArgumentThrownException_LambdaExpression(){
-        MathUtil.getFactorial(-5);
-    }
+//    @Test
+//    public void testGetFactorialGivenWrongArgumentThrownException_LambdaExpression(){
+//        MathUtil.getFactorial(-5);
+//    }
     
 }
